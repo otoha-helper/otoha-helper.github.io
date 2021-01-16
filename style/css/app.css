@@ -3,3 +3,33 @@
 * Designed for Another eden team picker
 * Copyrighted AlexWong
  */
+/* line 1, ../sass/_page.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 4, ../sass/_page.scss */
+body {
+  background: url("./../../images/cat_shrine.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 12, ../sass/_page.scss */
+.link-to-team-picker {
+  margin-left: 150px;
+  margin-bottom: 120px;
+}
+/* line 16, ../sass/_page.scss */
+.link-to-team-picker i {
+  height: 60px;
+  width: 60px;
+  font-size: 40px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  border: solid 4px white;
+}
